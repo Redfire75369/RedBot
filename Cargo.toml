@@ -1,0 +1,15 @@
+[package]
+name = "redbot"
+version = "0.1.0"
+authors = ["Redfire <redfire75369@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4.19"
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
+serenity = { version = "0.10.2", features = ["cache", "framework", "model", "rustls_backend", "standard_framework"] }
+tokio = { version = "1.0", features = ["macros", "signal", "rt-multi-thread"] }
+tracing = "0.1"
+tracing-subscriber = "0.2"
+tracing-futures = "0.2"
